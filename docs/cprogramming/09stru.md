@@ -316,6 +316,7 @@ job.starttime.time.hour;
 嵌套结构及成员访问:
 
 ```c
+{% raw %}
 #include<stdio.h>
 typedef struct
 {
@@ -338,6 +339,7 @@ int main()
 	printf("%d,%lf,%c\n",p->d1.x,p->d1.y,p->d1.c);
 	return 0;
 }
+{% endraw %}
 ```
 
 ```c
