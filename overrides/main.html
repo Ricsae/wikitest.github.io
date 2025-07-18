@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block libs %}
+  {% if config.extra.analytics %}
+    <script defer src="https://analytics.kokomi.ltd/script.js" data-website-id="37c07a74-059a-4d0e-8e65-38be80be4756"></script>
+  {% endif %}
+
+  {{ super() }}
+
+{% endblock %}
